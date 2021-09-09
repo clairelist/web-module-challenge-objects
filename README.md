@@ -16,7 +16,7 @@ You've been contracted by a restaurant to start building out their website. Befo
 ### Task 1: Set up Project
 
 Using VSCode and Command Line:
-
+EDIT FOR PUSHY
 
 1. Fork the repo
 2. Clone your forked version of the repo
