@@ -87,7 +87,7 @@ Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
 
-console.log(reviews[5]);
+console.log(reviews[5].feedback);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following: (no function needed) 
@@ -126,15 +126,14 @@ Use the getReviewByIndex function below to do the following:
 */
 
 
-function getReviewByIndex(array,i) {
-  for (i=0; i<array.length; i++){
-    if(i===i){
-      return `${array.name()} gave the restaurant a ${array.rating()} star review, and their feedback was: ${array.feedback()}`;
-    }
-  }
-}
+ function getReviewByIndex(array, number) {
+    return `${array[number].name} gave the restaurant a ${array[number].rating} star review, and their feedback was: ${array[number].feedback}`;
 
-console.log(getReviewByIndex(reviews,3));
+
+ }
+
+ console.log(getReviewByIndex(reviews,4));
+
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
